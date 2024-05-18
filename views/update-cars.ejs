@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <meta name="description" content="" />
+      <title>Cars Database</title>
+
+      <link
+        rel="canonical"
+        href="https://getbootstrap.com/docs/4.5/examples/album/"
+      />
+
+      <!-- Bootstrap core CSS -->
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous"
+      />
+
+      <link href="css/album.css" rel="stylesheet" />
+    </head>
+    <body>
+      <%- include('common/header'); -%>
+      <div class="container">
+        <h1 class="text-center">Update Car</h1>
+        <div class="row justify-content-md-center">
+          <div class="col-">
+            <form method="POST">
+              <div class="form-group">
+                <label for="Car_Name">Car Model</label>
+                <input
+                  value="<%= cars.Car_Name %>"
+                  type="text"
+                  class="form-control"
+                  id="Car_Name"
+                  name="Car_Name"
+                  placeholder="Enter the cars model"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="Origin">Origin</label>
+                <input
+                  value="<%= cars.Origin %>"
+                  type="text"
+                  class="form-control"
+                  id="Origin"
+                  name="Origin"
+                  placeholder="Enter the cars Origin"
+
+                />
+              </div>
+
+
+              <div class="form-group">
+                <label for="Brand">Brand</label>
+                <input
+                  value="<%= cars.Brand %>"
+                  type="text"
+                  class="form-control"
+                  id="Brand"
+                  name="Brand"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="Horsepower">Horsepower</label>
+                <input
+                  value="<%= cars.Horsepower %>"
+                  type="text"
+                  class="form-control"
+                  id="Horsepower"
+                  name="Horsepower"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="Cylinders">Cylinders</label>
+                <input
+                  value="<%= cars.Cylinders %>"
+                  type="text"
+                  class="form-control"
+                  id="Cylinders"
+                  name="Cylinders"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="Year_made">Year made</label>
+                <input
+                  value="<%= cars.Year_made %>"
+                  type="text"
+                  class="form-control"
+                  id="Year_made"
+                  name="Year_made"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="Engine">Engine</label>
+                <input
+                  value="<%= cars.Engine %>"
+                  type="text"
+                  class="form-control"
+                  id="Engine"
+                  name="Engine"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="Electric">Electric</label>
+                <input
+                  value="<%= cars.Electric %>"
+                  type="text"
+                  class="form-control"
+                  id="Electric"
+                  name="Electric"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <%- include('common/footer'); -%>
+    </body>
+  </html>
+</html>

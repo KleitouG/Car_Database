@@ -1,0 +1,92 @@
+[
+    {
+      "Car_name": "Mustang GT",
+      "Origin": "America",
+      "Brand": "Ford",
+      "Horsepower": "460",
+      "Cylinders": "8",
+      "Year_made": "2020",
+      "Engine": "5.0L V8",
+      "Electric": "No"
+    },
+    {
+      "Car_name": "Corvette Stingray",
+      "Origin": "America",
+      "Brand": "Chevrolet",
+      "Horsepower": "495",
+      "Cylinders": "8",
+      "Year_made": "2020",
+      "Engine": "6.2L V8",
+      "Electric": "No"
+    },
+    {
+      "Car_name": "BMW i3",
+      "Origin": "Europe",
+      "Brand": "BMW",
+      "Horsepower": "170",
+      "Cylinders": "0",
+      "Year_made": "2020",
+      "Engine": "Electric",
+      "Electric": "Yes"
+    },
+    {
+      "Car_name": "BMW i8",
+      "Origin": "Europe",
+      "Brand": "BMW",
+      "Horsepower": "369",
+      "Cylinders": "3",
+      "Year_made": "2020",
+      "Engine": "Hybrid",
+      "Electric": "Yes"
+    },
+    {
+      "Car_name": "Porsche 911 GT3",
+      "Origin": "Europe",
+      "Brand": "Porsche",
+      "Horsepower": "502",
+      "Cylinders": "6",
+      "Year_made": "2020",
+      "Engine": "4.0L Flat-6",
+      "Electric": "No"
+    },
+    {
+      "Car_name": "Porsche Taycan",
+      "Origin": "Europe",
+      "Brand": "Porsche",
+      "Horsepower": "750",
+      "Cylinders": "0",
+      "Year_made": "2020",
+      "Engine": "Electric",
+      "Electric": "Yes"
+    },
+    {
+      "Car_name": "Ferrari SF90",
+      "Origin": "Europe",
+      "Brand": "Ferrari",
+      "Horsepower": "986",
+      "Cylinders": "8",
+      "Year_made": "2020",
+      "Engine": "Hybrid",
+      "Electric": "Yes"
+    },
+    {
+      "Car_name": "Nissan GT-R",
+      "Origin": "Japan",
+      "Brand": "Nissan",
+      "Horsepower": "585",
+      "Cylinders": "6",
+      "Year_made": "2020",
+      "Engine": "3.8L V6",
+      "Electric": "No"
+    },
+    {
+      "Car_name": "Nissan LEAF",
+      "Origin": "Japan",
+      "Brand": "Nissan",
+      "Horsepower": "150",
+      "Cylinders": "0",
+      "Year_made": "2020",
+      "Engine": "Electric",
+      "Electric": "Yes"}
+    ]
+     
